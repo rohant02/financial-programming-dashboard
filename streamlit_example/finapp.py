@@ -561,16 +561,16 @@ with tab6:
 
     
 # Customize the dashboard with CSS
-st.markdown(
-    """
-    <style>
-        .stApp {
-            background: #ffffff;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     """
+#     <style>
+#         .stApp {
+#             background: #ffffff;
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 ###############################################################################
 # END
