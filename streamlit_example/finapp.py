@@ -56,7 +56,7 @@ def render_sidebar():
 
 def render_tab1():
     col1, col2, col3 = st.columns([1, 3, 1])
-    col2.image('./img/stock_market.jpg', use_column_width=True, caption='Company Stock Information')
+    #col2.image('./img/stock_market.jpg', use_column_width=True, caption='Company Stock Information')
 
     @st.cache_data
     def GetCompanyInfo(ticker):
