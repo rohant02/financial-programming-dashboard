@@ -29,7 +29,7 @@ from plotly.subplots import make_subplots
 def render_sidebar():
     st.sidebar.title("Financial Dashboard")
     st.sidebar.write("Data source:")
-    st.sidebar.image('./img/yahoo_finance.png', width=100)
+    #st.sidebar.image('./img/yahoo_finance.png', width=100)
 
     ticker_list = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]['Symbol']
 
